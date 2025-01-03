@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    /* Make sure to add your background image to public/images/ directory */
+    background-image: url('/images/background.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+}
+
+h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
